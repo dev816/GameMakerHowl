@@ -55,6 +55,13 @@ function gm_is_playing(name)
     return window.gm_sounds[name] ? window.gm_sounds[name].playing() : false;
 }
 
+function gm_unload_sound(name) {
+    if (window.gm_sounds[name]) {
+        window.gm_sounds[name].unload();
+        delete window.gm_sounds[name];
+    }
+}
+
 function gm_seek_sound(name, position)
 {
     if (window.gm_sounds[name]) {

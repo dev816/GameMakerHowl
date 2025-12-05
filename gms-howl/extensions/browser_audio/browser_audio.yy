@@ -27,6 +27,7 @@
         {"$GMExtensionFunction":"","%Name":"browser_audio_seek_sound","argCount":0,"args":[1,2,],"documentation":"","externalName":"gm_seek_sound","help":"browser_audio_seek_sound","hidden":false,"kind":5,"name":"browser_audio_seek_sound","resourceType":"GMExtensionFunction","resourceVersion":"2.0","returnType":1,},
         {"$GMExtensionFunction":"","%Name":"browser_audio_get_duration","argCount":0,"args":[1,],"documentation":"","externalName":"gm_get_duration","help":"browser_audio_get_duration(name)","hidden":false,"kind":5,"name":"browser_audio_get_duration","resourceType":"GMExtensionFunction","resourceVersion":"2.0","returnType":1,},
         {"$GMExtensionFunction":"","%Name":"browser_audio_get_current_time","argCount":0,"args":[],"documentation":"","externalName":"gm_get_current_time","help":"browser_audio_get_current_time(name)","hidden":false,"kind":5,"name":"browser_audio_get_current_time","resourceType":"GMExtensionFunction","resourceVersion":"2.0","returnType":1,},
+        {"$GMExtensionFunction":"","%Name":"browser_audio_unload_sound","argCount":0,"args":[],"documentation":"","externalName":"gm_unload_sound","help":"","hidden":false,"kind":5,"name":"browser_audio_unload_sound","resourceType":"GMExtensionFunction","resourceVersion":"2.0","returnType":1,},
       ],"init":"","kind":5,"name":"","origname":"","ProxyFiles":[],"resourceType":"GMExtensionFile","resourceVersion":"2.0","uncompress":false,"usesRunnerInterface":false,},
   ],
   "gradleinject":null,
