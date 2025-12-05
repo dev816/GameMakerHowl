@@ -1,0 +1,1 @@
+browser_audio_play_sound("music");
